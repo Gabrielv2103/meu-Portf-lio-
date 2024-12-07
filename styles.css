@@ -1,0 +1,50 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0; /* Remove margens padrão */
+    height: 100vh; /* Garante que a altura da página seja 100% da tela */
+    background-image: url('/4k.jpg'); /* Caminho da sua imagem */
+    background-size: cover; /* A imagem irá cobrir toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* A imagem fica fixa enquanto você rola a página */
+  }
+  
+  /* Estilo para os títulos */
+  h2, h4 {
+    color: #fff; /* Cor do texto para contraste com a imagem de fundo */
+  }
+  
+  /* Ajuste da imagem na seção "Sobre" */
+  #sobre img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0; /* Adiciona um espaçamento no rodapé */
+    text-align: center;
+  }
+  
+  /* Estilo para garantir boa legibilidade sobre a imagem de fundo */
+  #sobre, #projetos, #habilidades, #contato {
+    color: white; /* Torna o texto branco para boa visibilidade sobre a imagem */
+    padding: 50px 0; /* Ajuste o padding conforme necessário */
+  }
+  
+  /* Exemplos de cores específicas para seções */
+  #projetos {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para contraste */
+  }
+  
+  #habilidades {
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo semitransparente para contraste */
+  }
+  
+  #contato {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo mais escuro para seção de contato */
+  }
+  
